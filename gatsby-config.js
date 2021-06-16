@@ -1,6 +1,14 @@
+// gatsby-config.js
 module.exports = {
-  siteMetadata: {
-    title: "inkod-landing-page",
-  },
-  plugins: ["gatsby-plugin-styled-components"],
-};
+  plugins: [
+    'gatsby-plugin-ts-config',
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /images\/.*\.svg/,
+        },
+      },
+    },
+  ],
+}
