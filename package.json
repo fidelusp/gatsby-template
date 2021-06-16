@@ -1,9 +1,9 @@
 {
-  "name": "inkod-landing-page",
+  "name": "gatsby-template",
   "version": "1.0.0",
   "private": true,
-  "description": "INKOD",
-  "author": "hello@6bridges.io",
+  "description": "gatsby-template",
+  "author": "fidelusp@gmail.com",
   "keywords": [
     "gatsby"
   ],
